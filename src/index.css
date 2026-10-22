@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #101417;
+  --color-surface-dim: #101417;
+  --color-surface-bright: #363a3d;
+  --color-surface-container-lowest: #0b0f12;
+  --color-surface-container-low: #181c1f;
+  --color-surface-container: #1c2023;
+  --color-surface-container-high: #262a2e;
+  --color-surface-container-highest: #313539;
+  --color-surface-base: #0B0F12;
+  --color-surface-elevated: #12181F;
+  --color-surface-glass: rgba(18, 24, 31, 0.75);
+  --color-border-glass: rgba(255, 255, 255, 0.08);
+  --color-border-highlight: rgba(16, 185, 129, 0.25);
+  --color-primary: #4edea3;
+  --color-on-primary: #003824;
+  --color-primary-container: #10b981;
+  --color-on-primary-container: #00422b;
+  --color-primary-fixed: #6ffbbe;
+  --color-primary-fixed-dim: #4edea3;
+  --color-secondary: #ffb95f;
+  --color-on-secondary: #472a00;
+  --color-secondary-container: #ee9800;
+  --color-on-secondary-container: #5b3800;
+  --color-secondary-fixed: #ffddb8;
+  --color-secondary-fixed-dim: #ffb95f;
+  --color-tertiary: #68dba9;
+  --color-tertiary-container: #3eb686;
+  --color-on-tertiary: #003825;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+  --color-solar-flare: #F27D26;
+  --color-status-error: #EF4444;
+  --color-status-info: #0EA5E9;
+  --color-on-surface: #e0e3e7;
+  --color-on-surface-variant: #bbcabf;
+  --color-surface-variant: #313539;
+
+  --font-headline-md: "Space Grotesk", sans-serif;
+  --font-headline-lg: "Space Grotesk", sans-serif;
+  --font-headline-lg-mobile: "Space Grotesk", sans-serif;
+  --font-headline-sm: "Space Grotesk", sans-serif;
+  --font-display-lg: "Space Grotesk", sans-serif;
+  --font-display-lg-mobile: "Space Grotesk", sans-serif;
+  --font-title-md: "Inter", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+  --font-label-lg: "JetBrains Mono", monospace;
+  --font-label-md: "JetBrains Mono", monospace;
+  --font-label-sm: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0B0F12;
+    color: #e0e3e7;
+    font-family: "Inter", sans-serif;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+/* Material Symbols sizing helper */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+}
+
+/* Specific typography helper classes */
+.font-display-lg-mobile {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+.font-headline-lg-mobile {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.font-headline-sm {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.font-title-md {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.font-body-md {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.font-body-sm {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.font-label-lg {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.font-label-md {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.font-label-sm {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}

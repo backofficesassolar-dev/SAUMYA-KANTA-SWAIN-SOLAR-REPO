@@ -1,0 +1,8 @@
+{
+  "name": "Adishakti Solar",
+  "description": "Odisha's premier Tier-1 solar EPC platform with live telemetry, OERC-compliant solar calculator, equipment catalog, and site survey booking across TPCODL, TPNODL, TPSODL & TPWODL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

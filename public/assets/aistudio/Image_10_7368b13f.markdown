@@ -1,0 +1,237 @@
+---
+name: Adishakti Solar Platform
+colors:
+  surface: '#101417'
+  surface-dim: '#101417'
+  surface-bright: '#363a3d'
+  surface-container-lowest: '#0b0f12'
+  surface-container-low: '#181c1f'
+  surface-container: '#1c2023'
+  surface-container-high: '#262a2e'
+  surface-container-highest: '#313539'
+  on-surface: '#e0e3e7'
+  on-surface-variant: '#bbcabf'
+  inverse-surface: '#e0e3e7'
+  inverse-on-surface: '#2d3134'
+  outline: '#86948a'
+  outline-variant: '#3c4a42'
+  surface-tint: '#4edea3'
+  primary: '#4edea3'
+  on-primary: '#003824'
+  primary-container: '#10b981'
+  on-primary-container: '#00422b'
+  inverse-primary: '#006c49'
+  secondary: '#ffb95f'
+  on-secondary: '#472a00'
+  secondary-container: '#ee9800'
+  on-secondary-container: '#5b3800'
+  tertiary: '#68dba9'
+  on-tertiary: '#003825'
+  tertiary-container: '#3eb686'
+  on-tertiary-container: '#00422c'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#6ffbbe'
+  primary-fixed-dim: '#4edea3'
+  on-primary-fixed: '#002113'
+  on-primary-fixed-variant: '#005236'
+  secondary-fixed: '#ffddb8'
+  secondary-fixed-dim: '#ffb95f'
+  on-secondary-fixed: '#2a1700'
+  on-secondary-fixed-variant: '#653e00'
+  tertiary-fixed: '#85f8c4'
+  tertiary-fixed-dim: '#68dba9'
+  on-tertiary-fixed: '#002114'
+  on-tertiary-fixed-variant: '#005137'
+  background: '#101417'
+  on-background: '#e0e3e7'
+  surface-variant: '#313539'
+  surface-base: '#0B0F12'
+  surface-elevated: '#12181F'
+  surface-glass: rgba(18, 24, 31, 0.75)
+  border-glass: rgba(255, 255, 255, 0.08)
+  border-highlight: rgba(16, 185, 129, 0.25)
+  text-primary: '#F8FAFC'
+  text-secondary: '#94A3B8'
+  text-muted: '#64748B'
+  solar-flare: '#F27D26'
+  status-error: '#EF4444'
+  status-info: '#0EA5E9'
+typography:
+  display-lg:
+    fontFamily: Space Grotesk
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 56px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 10px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+The design system establishes a high-performance, dark-mode engineering aesthetic built for modern clean-energy infrastructure in Odisha, India. It positions solar energy not merely as an ecological alternative, but as an advanced technological investment with calculated returns and institutional reliability.
+
+The visual style blends **technical minimalism** with **restrained glassmorphism**:
+- Deep void backdrops anchor the interface in precision and durability.
+- Kinetic emerald illumination commands decisive action across telemetry, savings calculators, and e-commerce flows.
+- Metallic solar gold provides focused cues for monetary yields, government subsidies (PM Surya Ghar / Odisha state incentives), and premium tier badges.
+- Glass panels with razor-thin luminescence define spatial containment without visual clutter, maintaining strict legibility in high-ambient-light field conditions.
+
+## Colors
+
+The color architecture is built for ultra-high contrast dark interfaces:
+
+- **Primary (`#10B981`) & Deep Emerald (`#059669`):** Represents generative electrical power, operational health, active generation telemetry, and conversion targets.
+- **Secondary (`#F59E0B`):** Denotes monetary value, subsidy calculations, peak sun-hour tracking, and warranty certifications.
+- **Base Surfaces (`#0B0F12` and `#12181F`):** Rich, dark charcoal-black substrates that eliminate screen glare and reduce eye fatigue for engineers and consumers.
+- **Border Glass (`rgba(255, 255, 255, 0.08)`):** Provides crisp structural edge definition without weight.
+- **Solar Flare (`#F27D26`):** Reserved strictly for critical peak warnings, photovoltaic heat warnings, and high-impact regional alerts.
+
+## Typography
+
+Typography is calibrated across three distinct roles:
+1. **Space Grotesk (Headings & Display):** Imparts an engineered, geometric precision ideal for technical declarations, capacity ratings, and product titles.
+2. **Inter (Body & Narrative):** Offers neutral legibility for documentation, equipment specifications, and commercial terms.
+3. **JetBrains Mono (Telemetry, Financials, & Data Labels):** Renders all energy generation readouts (kWh/MWh), pricing (₹ INR), panel dimensions, efficiency percentages, and code identifiers.
+
+## Layout & Spacing
+
+A mobile-first fluid layout architecture built on an 8pt spatial grid:
+
+- **Mobile (< 768px):** Single-column stack with `1rem` safe-edge margins. Telemetry panels, calculators, and system architecture breakdowns collapse into vertical stepped flows.
+- **Tablet (768px - 1024px):** 8-column layout with `1.5rem` gutters and `2rem` outer margins.
+- **Desktop (1024px+):** 12-column layout capped at `1280px` max-width, maintaining centered orientation with `1.5rem` gutters and `3rem` exterior canvas offsets.
+
+Section vertical rhythm maintains `space-xl` internally between modules and `space-2xl` between macro narrative blocks.
+
+## Elevation & Depth
+
+Visual hierarchy uses a layered glassmorphic surface-container model:
+
+1. **Canvas (Lowest Layer):** `#0B0F12` pitch base. Non-interactive.
+2. **Surface Low (`#12181F`):** Solid background container for large layout sections, comparison tables, and static content blocks.
+3. **Surface Glass (`rgba(18, 24, 31, 0.75)` with `12px` backdrop blur):** Floating modules, interactive equipment cards, and calculation wizards. Enclosed by a 1px border (`rgba(255, 255, 255, 0.08)`).
+4. **Interactive Hover Elevation:** Surface tint lightens to `rgba(26, 34, 44, 0.85)` with a targeted ambient glow: `box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.15)`.
+5. **Modal & Floating Overlays:** Deepest z-index blur (`backdrop-blur-md`, `rgba(11, 15, 18, 0.85)`) framed with crisp 1px borders and elevated by a dual shadow: `0 20px 40px -15px rgba(0, 0, 0, 0.7)`.
+
+## Shapes
+
+The design system uses **Soft (`1`)** geometry:
+- Base controls, buttons, form inputs, and metric chips maintain a compact `0.25rem` (4px) corner radius.
+- Cards, modal containers, and dashboard tiles use `0.5rem` (8px).
+- Large technical hero containers and diagram frames max out at `0.75rem` (12px).
+
+Avoid high pill radii and circular forms outside of status indicator dots. The crisp 4px/8px corners emphasize engineering discipline and structural rigidity.
+
+## Components
+
+### Buttons
+- **Primary Action (Energy Emerald):** Solid background `#10B981`, text `#0B0F12`, font weight 600. Hover transitions to `#059669` with an emerald glow (`0 0 20px rgba(16, 185, 129, 0.3)`).
+- **Secondary (Solar Gold Accent):** Border 1px solid `#F59E0B`, text `#F59E0B`, transparent background. Used exclusively for "Calculate ROI", "Download Subsidy Sheet", and financial estimates.
+- **Glass / Ghost:** Background `rgba(255, 255, 255, 0.04)`, border 1px solid `rgba(255, 255, 255, 0.08)`, text `#F8FAFC`.
+
+### Chips & Telemetry Badges
+- Constructed with `JetBrains Mono` label-md typography.
+- Status chips: `4px` padding inline, background `rgba(16, 185, 129, 0.1)`, text `#10B981`, border 1px solid `rgba(16, 185, 129, 0.25)`. A 6px pulsing dot accompanies live system grid metrics.
+
+### Input Fields & Calculation Sliders
+- **Inputs:** Dark field `#0B0F12`, border 1px solid `rgba(255, 255, 255, 0.12)`, text `#F8FAFC`, placeholder `#64748B`. Focused state engages 1px border `#10B981` without browser-native rings.
+- **Load / Kilowatt Range Sliders:** Track height 4px in `#12181F`, active progress bar filled in `#10B981`, slider thumb 16px square with `2px` roundedness and `#F8FAFC` fill.
+
+### Cards & Grid Containers
+- Translucent backdrop blur `rgba(18, 24, 31, 0.75)` with 1px border `rgba(255, 255, 255, 0.08)`.
+- Internal layout features strict 24px padding (`space-lg`), separating headline specifications from performance output graphs.
+
+### Checkboxes & Radios
+- Square forms (`2px` radius) with `1.5px` border in `#64748B`. Checked state fills `#10B981` with dark glyph `#0B0F12`.
+
+### Domain-Specific Components
+- **Inverter & Photovoltaic Spec Matrix:** Dense, monospaced tabular layouts contrasting tier levels (Mono PERC vs. TOPCon).
+- **Subsidy Calculator Stepper:** Interactive visual meter displaying real-time central and Odisha state solar grants against upfront system cost.
